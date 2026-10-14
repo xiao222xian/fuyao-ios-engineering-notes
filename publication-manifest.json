@@ -14,33 +14,33 @@
     },
     {
       "path": "ABOUT.en.md",
-      "bytes": 1028,
-      "sha256": "2bb14556fd17874bc776e78b326897cee1bba5bd32619b8a01f569e3a2c5ad51"
+      "bytes": 1680,
+      "sha256": "685e632eec25d2f8d1b8c2a0bce0a8e3410d2655021fea0f553380acfc862bcd"
     },
     {
       "path": "ABOUT.md",
-      "bytes": 1010,
-      "sha256": "e9ad4165d9da704eb941971bc3ff2b4d625b7e769422d878857a7ceddb21ebf0"
+      "bytes": 1353,
+      "sha256": "0a13c243850a3d6e53e45b0438e4f5e3b3d33a8c1b36562282d0dd8e32fd1ba2"
     },
     {
       "path": "PROJECT_SHOWCASE.en.md",
-      "bytes": 7640,
-      "sha256": "bf121176ac2bc76549f445047b8b8af2ed9c3976808b0e99bc78b070eecd2d45"
+      "bytes": 7617,
+      "sha256": "3b42ec7f8e793ca9f7fce8ac9d15f09796c36a22febcf9a3a6efd5c51c394d38"
     },
     {
       "path": "PROJECT_SHOWCASE.md",
-      "bytes": 7667,
-      "sha256": "a288725e72f4bed3c1ffa32b4c3df2cfe55a923332f71caab7eb22379bad5312"
+      "bytes": 7535,
+      "sha256": "37cbca4551eff8a4d5a8a29487d5cfc3387a833de3cfd5833b6909e3521f3cb9"
     },
     {
       "path": "README.en.md",
-      "bytes": 3912,
-      "sha256": "a5d08ba9f2d32c048d356e0fbd34b388437b030957c16d8e50d5c8160a2f395a"
+      "bytes": 3978,
+      "sha256": "accfa91a30a5e2aac350ced2ae843a9fe2a39ffac1c0e0c17b14e4e3f3572ce7"
     },
     {
       "path": "README.md",
-      "bytes": 4600,
-      "sha256": "775d817bf8a4028edd2d38a7c0a6ffe03ae343d949617e5f7fa4e735875c2e01"
+      "bytes": 4647,
+      "sha256": "f38aad5274d95eae533501658643b78bf016b9e8bc6ed2a0c50836cab8c5080e"
     },
     {
       "path": "assets/agent-workflow.png",
@@ -64,13 +64,13 @@
     },
     {
       "path": "docs/ALGORITHM_AND_AI.en.md",
-      "bytes": 3651,
-      "sha256": "f349c393e7870f0933b6c2607f61f25cc405ed2d85f736fe20d0688406ba1216"
+      "bytes": 3729,
+      "sha256": "62edfc5f1b2f358f533ca9a602ffb7015f89daffec1991f3731e36e03d0955f4"
     },
     {
       "path": "docs/ALGORITHM_AND_AI.md",
-      "bytes": 4714,
-      "sha256": "40f0f882b09e3f7615e692c4ad1117f35d42501b3345be79f040e10418c25c88"
+      "bytes": 4676,
+      "sha256": "63997fa181549f53579bd4745670fbd49278076ba7f2ec7bec7da7a6f5dd0a9d"
     },
     {
       "path": "docs/BUSINESS_SCENARIOS.en.md",
@@ -84,33 +84,33 @@
     },
     {
       "path": "docs/PLATFORM_ARCHITECTURE.en.md",
-      "bytes": 2858,
-      "sha256": "ae8bb4180ff032c02d6b79cb74a2c2e00bee83670f5643f7c5b67df238f703f7"
+      "bytes": 2869,
+      "sha256": "42b74c56590d885172350ba87d09659e2f994a7d0d3d4ebc064ef3c79ce6fcf1"
     },
     {
       "path": "docs/PLATFORM_ARCHITECTURE.md",
-      "bytes": 3607,
-      "sha256": "380aadae636c8a4bc48aa2cf280113c211fd3d0cefa0f2276d3bfffd7456945c"
+      "bytes": 3565,
+      "sha256": "748b33a7cbbaabd92052ee9bb39ed19b7851e7bdd45d2ff06eb956b1f2c00509"
     },
     {
       "path": "docs/PRODUCT_CAPABILITIES.en.md",
-      "bytes": 3627,
-      "sha256": "e7e6e6a8605a0d481301655199f6cd28a4e3fb841a4301f4d9f1b2b3d2956f71"
+      "bytes": 3643,
+      "sha256": "73e8ac9676af5d2e653c8a9e36f9af65d91d40a10972b578f5913caf8396bae8"
     },
     {
       "path": "docs/PRODUCT_CAPABILITIES.md",
       "bytes": 3350,
-      "sha256": "80a391dde239eddfa6b4e8b9640c2ab2f22c8affb7496b19c6fbf9308a827adb"
+      "sha256": "371c7fb6414d3323b80998913afa85586801a754af56efe19c49831fd9de7308"
     },
     {
       "path": "docs/TECHNICAL_DETAILS.en.md",
-      "bytes": 8642,
-      "sha256": "4e19e465939ea316f68cd67041c03984cbc49dc4dbffd4592d89ee86c8a97fd3"
+      "bytes": 8620,
+      "sha256": "d1dc16ae78c7bd4f80b88919245c81b88ad00909f7d17f6a797ee1582e723bb8"
     },
     {
       "path": "docs/TECHNICAL_DETAILS.md",
-      "bytes": 7619,
-      "sha256": "da72816be2738db6c520a9cbd92d4e1b1e0338c515bb13d59f933ca187469424"
+      "bytes": 7640,
+      "sha256": "59c56dda9971d75db0c5c6f9ef932c7ff96e2a20264bb8eaf6b4fd8f8f0ab4be"
     }
   ]
 }

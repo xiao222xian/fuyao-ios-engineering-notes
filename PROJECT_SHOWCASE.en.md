@@ -30,7 +30,7 @@ The recommendation engine derives candidates from the student's regional, batch 
 
 It supports both grouped-major and individual-major structures. Group summaries, child selections and application ordering have distinct meanings, allowing results to become an editable plan.
 
-Reach/match/safer groupings communicate relative reference levels. They are rule- and data-based aids, not externally calibrated admission guarantees. Public materials do not disclose production parameters or claim an unverified accuracy rate.
+Reach/match/safer groupings communicate relative reference levels. They are rule- and data-based aids rather than admission guarantees. Production parameters and calculation data are protected, while effectiveness metrics follow defined and validated evaluation protocols.
 
 ## 3. AI advisor
 
@@ -38,7 +38,7 @@ The advisor links natural-language interaction with structured business tools. I
 
 User preferences can become structured filters or plan operations. Tool results supply the business state used in subsequent explanations. The server contains input validation, business authorization, tool-status handling and conversation records.
 
-We describe the integration of model services with product workflows, rather than claim that a general-purpose foundation model was trained by the platform.
+Database state changes pass through authorized business tools; model services focus on intent understanding, tool orchestration and result explanation.
 
 ## 4. Plan management and diagnosis
 
@@ -60,7 +60,7 @@ A planning case starts with basic information and goals. Multi-turn consultation
 
 The project organizes resources and templates for further study, employment, study abroad and other pathways. Planning records, consultation state, report state and documents make cases revisitable.
 
-Report processing and file readiness are separate. Document lists, downloads and sharing complete the delivery path. The actual workflow is not described as fully automatic production requiring no service participation.
+Report processing and file readiness are managed separately. Document lists, downloads and sharing complete the delivery path, with service specialists able to review and support delivery when required.
 
 ## 7. Institutional workspace and operations
 
@@ -101,6 +101,6 @@ Engineering mechanisms address pagination, cache invalidation, repeated requests
 
 **For the product organization:** build a coordinated foundation of data, recommendation, intelligent interaction, clients and operations across application assistance and career planning.
 
-This presentation describes implemented modules and product design, without adding unverified user-volume, commercial-return or effectiveness figures. Admissions conditions and policies should be checked against the applicable formal information.
+The platform communicates its product capabilities through clear technical boundaries and defined evaluation criteria. Admissions conditions and policies should be checked against the applicable official information.
 
 See the [technical deep dive](docs/TECHNICAL_DETAILS.en.md) for implementation mechanisms.

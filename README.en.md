@@ -45,4 +45,4 @@ Our implementation combines normalized admission context, rule-based candidate f
 | [Technical deep dive](docs/TECHNICAL_DETAILS.en.md) | Normalization, two-stage queries, piecewise mapping, tool execution and report lifecycle |
 | [Business scenarios](docs/BUSINESS_SCENARIOS.en.md) | Student, parent and institutional workflows |
 
-This is a company/team platform presentation. Content is based on archived implementation; regional data coverage, feature availability and service delivery depend on the actual product version and service agreement.
+Fuyao Zhiyuan combines shared data models, recommendation services, AI tools and multi-client applications for college-application and career-planning workflows. Regional data coverage, client capabilities and service delivery follow the applicable product version and service plan.

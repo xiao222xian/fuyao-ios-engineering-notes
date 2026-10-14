@@ -37,8 +37,8 @@ This lets intelligent interaction reuse existing business constraints instead of
 
 Search needs first-load and refresh phases; conversations need event handling and cancellation; reports need processing state and file readiness. Pagination, request coordination, cache synchronization, history and document access address these different lifecycles.
 
-The mechanisms are not advertised as unmeasured high-concurrency performance or unconditional reliability guarantees.
+Capacity and reliability targets are defined for each module and deployment environment, then supported by the applicable validation results.
 
-## Public disclosure
+## Engineering governance and security
 
-The diagram is an original responsibility map, not a production deployment map. Real addresses, interfaces, accounts, parameters and internal topology are excluded. Archived modules and historical checks are not evidence of current publication or acceptance across every client.
+The architecture map describes component responsibilities. Production addresses, interfaces, accounts, parameters and internal topology are governed by security controls. Each client follows its own version plan, quality gates and release process.

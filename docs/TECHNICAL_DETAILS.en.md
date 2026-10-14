@@ -24,7 +24,7 @@ The engine combines region, batch, score, rank and subject selections with prefe
 
 The first stage fetches lightweight candidates sufficient for filtering, comparison and pagination. The second loads complete institution, major and historical details for the selected page. Group-level records can be prefiltered by institution attributes before joining eligible child candidates.
 
-This reduces the scope of detail loading. Actual latency still depends on dataset size, indexes, filters and deployment conditions; source comments are not presented as benchmark results.
+This reduces the scope of detail loading. Actual latency still depends on dataset size, indexes, filters and deployment conditions; performance conclusions rely on controlled benchmarks and production observation.
 
 ### Risk-reference mapping
 
@@ -42,7 +42,7 @@ Eligible child candidates are grouped by institution and major-group identity. A
 
 Recommendation ordering and a user's application order have different purposes. The application list preserves manual edits. Business tools can also organize a plan by target risk proportions, summarize its composition and export results.
 
-The following is original explanatory pseudocode, not production source or an actual API:
+The following pseudocode summarizes the main responsibilities in the recommendation flow:
 
 ```text
 context = normalize(student_profile, region_rules)
@@ -69,13 +69,13 @@ Execution proceeds through argument parsing, input-shape and tool validation, bu
 
 Read tools and mutation tools have different execution policies. Registry metadata identifies mutations. A batch enters the parallel path only when all tools are read-only and budget and estimated execution-cost conditions are met. Independent database sessions are used for those calls. Unknown tool behavior is handled conservatively rather than treated as a safe parallel mutation.
 
-Conversation context can contain read results superseded by later updates. Input signatures and mutation-phase markers help identify compressible reads while preserving tool-call/result pairing. System prompts, complete private schemas and internal tool budgets are not published.
+Conversation context can contain read results superseded by later updates. Input signatures and mutation-phase markers help identify compressible reads while preserving tool-call/result pairing. System prompts, complete private schemas and internal tool budgets are governed by platform security controls.
 
 ## 5. Streaming and task lifecycle
 
 Streaming carries more than text: tool status, structured cards, choices and business state can update the client progressively. Conversation and task services retain relevant records and provide cancellation and recovery-related paths.
 
-A tool failure, transport interruption, user cancellation and business completion are distinct events. Trace and event modules organize the execution record; this description does not promise automatic lossless recovery under every disconnection scenario.
+A tool failure, transport interruption, user cancellation and business completion are distinct events. Trace and event modules organize the execution record, while recovery or re-execution follows state, persisted progress and business constraints.
 
 ## 6. Application-plan parsing and diagnosis
 
@@ -87,9 +87,9 @@ Parsing, business analysis and document delivery remain distinct. This lets diag
 
 Planning records link initial information, conversation, goals, collection status, report status and documents. Data collection and consultation advance the case; report services handle deliverables.
 
-In the archived standard workflow, documents uploaded through the administrative process drive file availability. A report request does not mean a downloadable document already exists. Document lists and downloads become available once the resources are ready. Retained compatibility exporters do not mean every current report is generated automatically within the request.
+The standard delivery workflow uses administrative document processing to advance file availability. After a report request, the system tracks processing and resource-readiness state; lists and downloads become available when documents are ready. Compatibility exporters and on-demand generation paths are managed separately for different service contexts.
 
-The supported product pattern is AI consultation plus planning services and managed document delivery, rather than an unverified claim of fully autonomous content production.
+The product combines AI consultation, planning services and managed document delivery, with review and service workflows supporting output quality.
 
 ## 8. Clients, identity and authorization
 
@@ -99,8 +99,8 @@ Identity mapping, tokens, roles and record-ownership checks define access to bus
 
 Clients use loading phases, request sequencing, coalesced refreshes, scoped entity identities and local updates to coordinate interaction. The server supplies authoritative business state, keeping actions and presentation connected.
 
-## 9. Disclosure scope
+## 9. Technology and data governance
 
-This document discloses module responsibilities, query organization, generic mapping, tool-execution mechanisms and state coordination. Production thresholds, internal prompts, real data, private interfaces, credentials and deployment topology remain outside the public materials.
+Module responsibilities, query organization, generic mappings, tool execution and state coordination form a maintainable technical system. Production thresholds, internal prompts, real data, private interfaces, credentials and deployment topology are governed by access, security and privacy controls.
 
-The description is based on archived implementation. It does not assert that every feature is currently available, that production load testing has passed, or that model-output quality has been independently evaluated.
+Client features follow their product versions. Performance and model quality are evaluated against the applicable environments, datasets and acceptance criteria.

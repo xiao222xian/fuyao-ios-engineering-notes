@@ -1,11 +1,19 @@
-# About This Platform Presentation
+# About Fuyao Zhiyuan
 
 [中文](ABOUT.md) · [English overview](README.en.md)
 
-This is a company/team presentation of Fuyao Zhiyuan, covering data, recommendation algorithms, AI consultation, multiple clients, institutional workspaces and operations. It is intended for product and business communication and technical discussion.
+Fuyao Zhiyuan is an integrated platform for college-application assistance and career planning. Its product system spans admissions data, recommendation algorithms, AI consultation, client applications, institutional workspaces and operations.
 
-Prepared on 2026-10-14 from archived implementation, data models, application modules and technical documentation. Public text and diagrams are original; commercial source, real student information, original reports, private interfaces, prompts, production parameters, accounts and credentials are excluded.
+## Product and technology focus
 
-Module presence does not establish current regional coverage, feature availability or publication status. No unverified accuracy, user-volume, return, latency or release claims are added. Actual product scope follows the deployed version and service agreement.
+Shared business models connect institution and major discovery, score/rank analysis, personalized recommendations, application-plan management, AI consultation, career planning and report delivery. WeChat Mini Program, Web, iOS, Android and institutional workspaces support their respective usage contexts.
 
-Public access does not grant redistribution rights to the original software, data, brand or third-party assets.
+The technology stack includes Python, FastAPI, SQLAlchemy, MySQL, Redis, Vue, uni-app, Swift/SwiftUI and Kotlin/Gradle. Engineering focuses include admission-context normalization, candidate filtering and aggregation, risk references, agent-tool execution, cross-client state consistency and document delivery.
+
+## Data and service governance
+
+Product descriptions and technical diagrams explain platform capabilities and system design. Commercial source code, real user records, original reports, private interfaces, model prompts, production algorithm parameters, accounts, credentials and deployment topology are protected.
+
+Recommendations and AI content support research and consultation. Applicable official sources remain authoritative for admissions policies, eligibility and admission conditions. Regional coverage, client features and service scope follow the applicable product version and service plan.
+
+Rights in the software, data, brand and third-party materials remain with their respective owners.

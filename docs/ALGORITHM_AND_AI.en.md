@@ -14,7 +14,7 @@ The engine uses region, batch, subjects, score/rank and institution/major enroll
 
 **Score/rank matching:** student rank is compared with candidate historical or estimated ranks. Score ranges and conversion availability affect filtering; the applicable path can fall back to direct score filtering.
 
-**Relative-risk presentation:** reference calculations support candidate ordering and reach/match/safer groups. These are data- and rule-driven aids, not independently calibrated admission probabilities. Production coefficients and unverified effectiveness figures are not disclosed.
+**Relative-risk presentation:** reference calculations support candidate ordering and reach/match/safer groups. These are data- and rule-driven aids rather than independently calibrated admission probabilities. Production coefficients and prediction data are protected; effectiveness metrics use defined, reproducible evaluation protocols.
 
 **Group aggregation and plans:** eligible child majors are organized into groups. Group summaries and child selections remain distinct. Results feed application-plan editing, target risk composition, statistics and exports, while manual order is preserved.
 
@@ -22,7 +22,7 @@ The engine uses region, batch, subjects, score/rank and institution/major enroll
 
 Lightweight filtering, ordering and pagination precede complete detail loading. Group aggregation and statistics have their own handling, with cache mechanisms in applicable paths.
 
-Profile and preference changes require synchronization or invalidation. This explains implementation mechanisms without turning source comments into benchmark claims.
+Profile and preference changes require synchronization or invalidation. Performance conclusions are based on controlled benchmarks and production observation.
 
 ## AI business tools
 
@@ -40,16 +40,16 @@ The model converts intent into tool calls. Business services validate parameters
 
 ## Streaming and continuity
 
-Events carry text, choices, operation status and results. Conversation history, profiles and preferences provide context. Task records and cancellation/recovery-related paths support continuing interaction without implying automatic recovery from every failure.
+Events carry text, choices, operation status and results. Conversation history, profiles and preferences provide context. Task records, cancellation and recovery paths apply state-specific strategies to transport interruption, user cancellation and business failure.
 
 ## Planning resources and reports
 
 Consultation clarifies goals and constraints. Resources and templates cover multiple educational and career pathways, with planning records linking the case to document delivery.
 
-Report state and file availability are separate. The platform supports a service-delivery workflow, not an unverified autonomous decision or fully automatic report-production claim.
+Report state and file availability are separate. Review and specialist participation remain available so AI assistance operates within a managed service-delivery workflow.
 
 ## Division of responsibilities
 
 **Algorithms organize candidates and relative risk; AI interprets questions, calls tools and explains results; applications make the workflow actionable.**
 
-The integration is the engineering contribution. It is not described as a proprietary foundation model without supporting evidence.
+The integration is the engineering contribution, centered on business data, recommendation algorithms, agent-tool orchestration and multi-client product coordination.

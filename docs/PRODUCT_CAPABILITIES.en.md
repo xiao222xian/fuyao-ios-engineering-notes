@@ -55,4 +55,4 @@ Resources and templates cover different development pathways. Resource organizat
 
 The WeChat Mini Program, Web, iOS and Android engineering provide different entry points. Mobile use emphasizes discovery and interaction; desktop workflows support information review and plan editing; institutional work links clients and deliverables.
 
-A module or client project existing does not imply that every function is published and available in every current version.
+Each client follows its own release cadence, with capabilities delivered according to product positioning, quality gates and release plans.

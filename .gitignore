@@ -1,0 +1,6 @@
+# Only original Markdown documentation is published
+*
+!*/
+!*.md
+!.gitignore
+!publication-manifest.json

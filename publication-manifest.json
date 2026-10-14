@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-14",
+  "scope": "Original retrospective documents and concept diagrams only",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 103,
+      "sha256": "ab0e3d57140a80574df91773a90d7e2a049a100f1f35b30de62e2320874f191d",
+      "reviewed": true
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1993,
+      "sha256": "46a99324143e367913ae7f9822f7249790f7eb25640d931316a43d1dc89c6002",
+      "reviewed": true
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "bytes": 1278,
+      "sha256": "c3db8c52fb296f3fdd6720316da0a79ff23f87e220ca567e24728b71e421a341",
+      "reviewed": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 3665,
+      "sha256": "e1e31341074590b7241c73b7bc55e21722ae20ed2268dd543deae3bd2f91accc",
+      "reviewed": true
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 440,
+      "sha256": "5dbb597170fae0fd270cf3dc0d65b73e7ac670d5826c511aa8e38923394e50d8",
+      "reviewed": true
+    },
+    {
+      "path": "docs/01-context-and-ownership.md",
+      "bytes": 3063,
+      "sha256": "e5d06b07eed16d4d69257b2a5114b15f0b4175bf9ad41437c56286443aa7f681",
+      "reviewed": true
+    },
+    {
+      "path": "docs/02-architecture-and-state.md",
+      "bytes": 4800,
+      "sha256": "d7c7ddd7412b01d510875b964ccabff629403199b65097089d2d342a6af3935a",
+      "reviewed": true
+    },
+    {
+      "path": "docs/03-algorithms-and-contracts.md",
+      "bytes": 7614,
+      "sha256": "afb23a020b5e1188421c34c7cfd30430d1977e16d392249ad3e49aae06886e97",
+      "reviewed": true
+    },
+    {
+      "path": "docs/04-development-and-validation.md",
+      "bytes": 4298,
+      "sha256": "7c0fa13b285e8354e94382b62b69f9694d5dd07413fc867716118f8d37a53734",
+      "reviewed": true
+    },
+    {
+      "path": "docs/05-results-and-tradeoffs.md",
+      "bytes": 4199,
+      "sha256": "26a5ef2c8c6445571f6a7644e9464831905b4efc1c8cf630f1921bd892e3964f",
+      "reviewed": true
+    },
+    {
+      "path": "docs/06-limitations-and-next.md",
+      "bytes": 2889,
+      "sha256": "87b108225bc3d54577b7a5e2b4ca450fed9887a2fc401fa103e507587f910d8f",
+      "reviewed": true
+    }
+  ]
+}

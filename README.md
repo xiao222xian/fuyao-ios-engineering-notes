@@ -2,6 +2,8 @@
 
 # 扶摇志愿｜高考志愿填报与 AI 生涯规划平台
 
+**中文** · [English](README.en.md)
+
 ![扶摇志愿平台能力概览](assets/overview.svg)
 
 **以招生数据为基础、推荐算法为引擎、AI 顾问为交互入口，连接考生端应用、机构工作台和运营管理，构建从志愿辅助到生涯规划的产品服务体系。**
@@ -23,6 +25,14 @@
 | 选科与兴趣辅助 | 选科指南、职业兴趣/性格测评及专业职业方向信息 | 把成绩条件与兴趣方向放在同一讨论框架中 |
 | 生涯规划与报告 | 资料采集、多轮问询、目标梳理、规划记录、报告文档与下载分享 | 将一次咨询衔接为可保存的规划成果 |
 | 多端与机构服务 | 微信小程序、Web、iOS、Android 工程，以及机构和运营管理模块 | 兼顾移动使用、桌面编辑与服务交付 |
+
+## 技术图解
+
+![平台架构 / Platform architecture](assets/platform-architecture.png)
+
+![推荐流程 / Recommendation pipeline](assets/recommendation-pipeline.png)
+
+![Agent 协作 / Agent workflow](assets/agent-workflow.png)
 
 ## 平台如何协同工作
 
@@ -57,6 +67,7 @@ flowchart LR
 | [产品能力](docs/PRODUCT_CAPABILITIES.md) | 查询、推荐、诊断、测评、规划、机构与运营模块 |
 | [算法与 AI](docs/ALGORITHM_AND_AI.md) | 数据组织、推荐流程、风险分层、Agent 工具与规划交互 |
 | [平台技术架构](docs/PLATFORM_ARCHITECTURE.md) | 多端应用、后端服务、数据层、业务一致性与工程机制 |
+| [技术详解](docs/TECHNICAL_DETAILS.md) | 批次归一化、两阶段查询、分段映射、工具并行与状态生命周期 |
 | [业务场景](docs/BUSINESS_SCENARIOS.md) | 考生、家长和机构如何使用平台能力 |
 
 本仓库为公司/团队视角的对外平台介绍。内容依据项目归档实现整理；具体地区数据、功能开放范围和服务交付方式以实际产品与服务约定为准。

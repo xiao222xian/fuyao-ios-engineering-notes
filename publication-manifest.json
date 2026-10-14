@@ -1,26 +1,51 @@
 {
   "date": "2026-10-14",
-  "scope": "Company platform showcase: product, recommendation, AI, multi-client architecture and services",
+  "scope": "Bilingual company platform presentation, implementation details and original technical figures",
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "language_pairs": 8,
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 127,
-      "sha256": "48e908fcb6f480ee0ba38403c4e49471ad673e963c8c7466bab8804c6478012c"
+      "bytes": 224,
+      "sha256": "77098f950d504d203850e3cf2a78ccf710ed6cac973d6426783642b900dee786"
+    },
+    {
+      "path": "ABOUT.en.md",
+      "bytes": 1028,
+      "sha256": "2bb14556fd17874bc776e78b326897cee1bba5bd32619b8a01f569e3a2c5ad51"
     },
     {
       "path": "ABOUT.md",
-      "bytes": 985,
-      "sha256": "1f55b64a4d12fe1144b34b9c77afee4eca1f8d341bbe0e9db686c082d4050d20"
+      "bytes": 1010,
+      "sha256": "e9ad4165d9da704eb941971bc3ff2b4d625b7e769422d878857a7ceddb21ebf0"
+    },
+    {
+      "path": "PROJECT_SHOWCASE.en.md",
+      "bytes": 7640,
+      "sha256": "bf121176ac2bc76549f445047b8b8af2ed9c3976808b0e99bc78b070eecd2d45"
     },
     {
       "path": "PROJECT_SHOWCASE.md",
-      "bytes": 7397,
-      "sha256": "bc3b59beedc1d29f4897be2f6eb59ff3d7cb6b0d682a4e94a316396f8c499cf0"
+      "bytes": 7667,
+      "sha256": "a288725e72f4bed3c1ffa32b4c3df2cfe55a923332f71caab7eb22379bad5312"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 3912,
+      "sha256": "a5d08ba9f2d32c048d356e0fbd34b388437b030957c16d8e50d5c8160a2f395a"
     },
     {
       "path": "README.md",
-      "bytes": 4196,
-      "sha256": "bce2cc94669f28840e6cad753b46900d94dc14f933c2a2a1e2cd6d01524d9f04"
+      "bytes": 4600,
+      "sha256": "775d817bf8a4028edd2d38a7c0a6ffe03ae343d949617e5f7fa4e735875c2e01"
+    },
+    {
+      "path": "assets/agent-workflow.png",
+      "bytes": 100313,
+      "sha256": "164a9629994ff46353d66a20f107d36934ed9c3c9957304161acf138e9abd2b7"
     },
     {
       "path": "assets/overview.svg",
@@ -28,24 +53,64 @@
       "sha256": "0d64a2e54b5276bed3fe2ce4a2f819c89afa7e2c82f0c12800a18b3111f5e616"
     },
     {
+      "path": "assets/platform-architecture.png",
+      "bytes": 112251,
+      "sha256": "25d95d1865d2f82397d8aea494d723b68026425fd92e4378d0d5e2d9d9482100"
+    },
+    {
+      "path": "assets/recommendation-pipeline.png",
+      "bytes": 106303,
+      "sha256": "b7f0f7fb303fc039c9ad2fb8c960a5c72045c91378e96b03f6c25d23fff01c32"
+    },
+    {
+      "path": "docs/ALGORITHM_AND_AI.en.md",
+      "bytes": 3651,
+      "sha256": "f349c393e7870f0933b6c2607f61f25cc405ed2d85f736fe20d0688406ba1216"
+    },
+    {
       "path": "docs/ALGORITHM_AND_AI.md",
-      "bytes": 4678,
-      "sha256": "a29168eb5d9656413d184a2a235285d3cbdacffcf65a5115791e07627e0342f5"
+      "bytes": 4714,
+      "sha256": "40f0f882b09e3f7615e692c4ad1117f35d42501b3345be79f040e10418c25c88"
+    },
+    {
+      "path": "docs/BUSINESS_SCENARIOS.en.md",
+      "bytes": 2266,
+      "sha256": "fdf741d185a584528ef955b139aa361579b3712a71be7e5c15230c238aed332d"
     },
     {
       "path": "docs/BUSINESS_SCENARIOS.md",
-      "bytes": 2571,
-      "sha256": "b65887a2a2d9ea2c28df713093f270ca4059c9a6d687249315d7f103af08de2e"
+      "bytes": 2609,
+      "sha256": "86ef4ca2d7d528e88d2fb89e5fcab21184ccbc66808c914ea459e35c45eeb47e"
+    },
+    {
+      "path": "docs/PLATFORM_ARCHITECTURE.en.md",
+      "bytes": 2858,
+      "sha256": "ae8bb4180ff032c02d6b79cb74a2c2e00bee83670f5643f7c5b67df238f703f7"
     },
     {
       "path": "docs/PLATFORM_ARCHITECTURE.md",
-      "bytes": 3566,
-      "sha256": "59bd064145b05410618a573167d0c6b28d2fb89a4f7a681eeff5cb2540268ff9"
+      "bytes": 3607,
+      "sha256": "380aadae636c8a4bc48aa2cf280113c211fd3d0cefa0f2276d3bfffd7456945c"
+    },
+    {
+      "path": "docs/PRODUCT_CAPABILITIES.en.md",
+      "bytes": 3627,
+      "sha256": "e7e6e6a8605a0d481301655199f6cd28a4e3fb841a4301f4d9f1b2b3d2956f71"
     },
     {
       "path": "docs/PRODUCT_CAPABILITIES.md",
-      "bytes": 3310,
-      "sha256": "3d47200e2bcc9c9c0a1906fa47cb7deb5f7ef5191f7c426d62986f80e84c1223"
+      "bytes": 3350,
+      "sha256": "80a391dde239eddfa6b4e8b9640c2ab2f22c8affb7496b19c6fbf9308a827adb"
+    },
+    {
+      "path": "docs/TECHNICAL_DETAILS.en.md",
+      "bytes": 8642,
+      "sha256": "4e19e465939ea316f68cd67041c03984cbc49dc4dbffd4592d89ee86c8a97fd3"
+    },
+    {
+      "path": "docs/TECHNICAL_DETAILS.md",
+      "bytes": 7619,
+      "sha256": "da72816be2738db6c520a9cbd92d4e1b1e0338c515bb13d59f933ca187469424"
     }
   ]
 }

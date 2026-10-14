@@ -1,5 +1,8 @@
 # 平台技术架构｜多端应用与共享业务服务
 
+[English](PLATFORM_ARCHITECTURE.en.md)
+
+
 ## 整体结构
 
 ```mermaid

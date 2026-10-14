@@ -3,5 +3,8 @@
 !*/
 !*.md
 !assets/overview.svg
+!assets/platform-architecture.png
+!assets/recommendation-pipeline.png
+!assets/agent-workflow.png
 !.gitignore
 !publication-manifest.json

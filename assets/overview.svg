@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
-<title id="title">扶摇志愿 iOS 项目能力展示</title><desc id="desc">个人主要工作为原生 iOS 开发与跨端业务对齐，包含查询、志愿选择、AI问询与报告分享。原创能力示意，非App截图。</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10172f"/><stop offset="1" stop-color="#253765"/></linearGradient><linearGradient id="accent"><stop stop-color="#a8bcff"/><stop offset="1" stop-color="#79e4dc"/></linearGradient></defs>
-<rect width="1280" height="480" rx="24" fill="url(#bg)"/>
-<circle cx="1160" cy="10" r="210" fill="#8a9bff" opacity=".08"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+<title id="title">扶摇志愿：高考志愿填报与AI生涯规划平台</title><desc id="desc">平台以数据、推荐算法和AI顾问为基础，连接查询、志愿管理、生涯规划、多端应用及机构运营。原创能力示意，非产品截图。</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1830"/><stop offset="1" stop-color="#183f59"/></linearGradient></defs>
+<rect width="1280" height="560" rx="24" fill="url(#bg)"/>
+<circle cx="1160" cy="30" r="250" fill="#46c5bf" opacity=".07"/>
 <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
-<text x="56" y="54" fill="#a8bcff" font-size="15" letter-spacing="3">iOS DEVELOPMENT · AI APPLICATION</text>
-<text x="56" y="126" fill="#ffffff" font-size="52" font-weight="700">扶摇志愿</text>
-<text x="56" y="172" fill="#d8e0ff" font-size="24">把志愿辅助与 AI 生涯规划接入原生移动端</text>
-<rect x="56" y="198" width="472" height="38" rx="19" fill="#ffffff" opacity=".08"/>
-<text x="76" y="223" fill="#b9ede9" font-size="17">我的工作：iOS 客户端开发与跨端业务对齐</text>
-<g transform="translate(56 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#99aeff" font-size="15">01 / SEARCH</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">院校专业查询</text><text x="22" y="101" fill="#b5c3e3" font-size="16">筛选 · 分页 · 详情数据适配</text></g>
-<g transform="translate(352 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#99aeff" font-size="15">02 / VOLUNTEER</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">志愿选择与管理</text><text x="22" y="101" fill="#b5c3e3" font-size="16">专业组 · 子项状态 · 局部更新</text></g>
-<g transform="translate(648 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#7bd9d4" font-size="15">03 / AI INTERACTION</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">AI 生涯问询</text><text x="22" y="101" fill="#b5c3e3" font-size="16">流式事件 · 选项回复 · 记录恢复</text></g>
-<g transform="translate(944 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#7bd9d4" font-size="15">04 / REPORT</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">报告下载与分享</text><text x="22" y="101" fill="#b5c3e3" font-size="16">生成状态 · 文档取回 · 系统分享</text></g>
-<text x="56" y="443" fill="#97a8ce" font-size="14">Swift / SwiftUI / MVVM / Async-Await / SSE</text><text x="1004" y="443" fill="#97a8ce" font-size="14">能力示意 · 非 App 截图</text>
+<text x="56" y="52" fill="#88d8d4" font-size="15" letter-spacing="3">DATA × ALGORITHM × AI × PLATFORM</text>
+<text x="56" y="123" fill="#ffffff" font-size="52" font-weight="700">扶摇志愿</text>
+<text x="56" y="171" fill="#e1edff" font-size="27">高考志愿填报与 AI 生涯规划平台</text>
+<text x="56" y="211" fill="#a9c0d8" font-size="18">从招生数据与个性化推荐，到智能咨询、多端应用及机构服务</text>
+<g transform="translate(56 255)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#8adcd5" font-size="23" font-weight="600">数据底座</text><text x="22" y="68" fill="#c0d0e6" font-size="16">院校专业 · 历史录取 · 招生计划 · 位次政策</text></g>
+<g transform="translate(454 255)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#a8bfff" font-size="23" font-weight="600">推荐引擎</text><text x="22" y="68" fill="#c0d0e6" font-size="16">条件约束 · 偏好筛选 · 风险分层 · 方案组合</text></g>
+<g transform="translate(852 255)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#a8bfff" font-size="23" font-weight="600">AI 智能顾问</text><text x="22" y="68" fill="#c0d0e6" font-size="16">自然语言 · 业务工具 · 流式交互 · 规划问询</text></g>
+<g transform="translate(56 369)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#ffffff" font-size="23" font-weight="600">产品业务</text><text x="22" y="68" fill="#c0d0e6" font-size="16">查询 · 志愿管理 · 诊断 · 测评 · 报告交付</text></g>
+<g transform="translate(454 369)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#ffffff" font-size="23" font-weight="600">多端应用</text><text x="22" y="68" fill="#c0d0e6" font-size="16">微信小程序 · Web · iOS · Android 工程</text></g>
+<g transform="translate(852 369)"><rect width="372" height="94" rx="14" fill="#ffffff" opacity=".07"/><text x="22" y="37" fill="#ffffff" font-size="23" font-weight="600">机构与运营</text><text x="22" y="68" fill="#c0d0e6" font-size="16">档案方案 · 服务记录 · 权益订单 · 文档管理</text></g>
+<text x="56" y="518" fill="#99b4cd" font-size="16">连接考生、家长与教育咨询服务场景</text><text x="1015" y="518" fill="#99b4cd" font-size="14">平台能力示意 · 非产品截图</text>
 </g></svg>

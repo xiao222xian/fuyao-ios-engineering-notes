@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+<title id="title">扶摇志愿 iOS 项目能力展示</title><desc id="desc">个人主要工作为原生 iOS 开发与跨端业务对齐，包含查询、志愿选择、AI问询与报告分享。原创能力示意，非App截图。</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10172f"/><stop offset="1" stop-color="#253765"/></linearGradient><linearGradient id="accent"><stop stop-color="#a8bcff"/><stop offset="1" stop-color="#79e4dc"/></linearGradient></defs>
+<rect width="1280" height="480" rx="24" fill="url(#bg)"/>
+<circle cx="1160" cy="10" r="210" fill="#8a9bff" opacity=".08"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+<text x="56" y="54" fill="#a8bcff" font-size="15" letter-spacing="3">iOS DEVELOPMENT · AI APPLICATION</text>
+<text x="56" y="126" fill="#ffffff" font-size="52" font-weight="700">扶摇志愿</text>
+<text x="56" y="172" fill="#d8e0ff" font-size="24">把志愿辅助与 AI 生涯规划接入原生移动端</text>
+<rect x="56" y="198" width="472" height="38" rx="19" fill="#ffffff" opacity=".08"/>
+<text x="76" y="223" fill="#b9ede9" font-size="17">我的工作：iOS 客户端开发与跨端业务对齐</text>
+<g transform="translate(56 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#99aeff" font-size="15">01 / SEARCH</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">院校专业查询</text><text x="22" y="101" fill="#b5c3e3" font-size="16">筛选 · 分页 · 详情数据适配</text></g>
+<g transform="translate(352 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#99aeff" font-size="15">02 / VOLUNTEER</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">志愿选择与管理</text><text x="22" y="101" fill="#b5c3e3" font-size="16">专业组 · 子项状态 · 局部更新</text></g>
+<g transform="translate(648 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#7bd9d4" font-size="15">03 / AI INTERACTION</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">AI 生涯问询</text><text x="22" y="101" fill="#b5c3e3" font-size="16">流式事件 · 选项回复 · 记录恢复</text></g>
+<g transform="translate(944 270)"><rect width="278" height="126" rx="16" fill="#ffffff" opacity=".07"/><text x="22" y="36" fill="#7bd9d4" font-size="15">04 / REPORT</text><text x="22" y="70" fill="#ffffff" font-size="23" font-weight="600">报告下载与分享</text><text x="22" y="101" fill="#b5c3e3" font-size="16">生成状态 · 文档取回 · 系统分享</text></g>
+<text x="56" y="443" fill="#97a8ce" font-size="14">Swift / SwiftUI / MVVM / Async-Await / SSE</text><text x="1004" y="443" fill="#97a8ce" font-size="14">能力示意 · 非 App 截图</text>
+</g></svg>

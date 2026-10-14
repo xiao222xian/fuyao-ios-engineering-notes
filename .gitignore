@@ -1,6 +1,7 @@
-# Only original Markdown documentation is published
+# Publish only curated project presentation materials
 *
 !*/
 !*.md
+!assets/overview.svg
 !.gitignore
 !publication-manifest.json

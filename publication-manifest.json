@@ -1,72 +1,36 @@
 {
   "date": "2026-10-14",
-  "scope": "Original retrospective documents and concept diagrams only",
+  "scope": "Original public project showcase: personal work, capabilities and implementation",
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 103,
-      "sha256": "ab0e3d57140a80574df91773a90d7e2a049a100f1f35b30de62e2320874f191d",
-      "reviewed": true
+      "bytes": 126,
+      "sha256": "96a2ab118e6155c9525a4076b58f64468c1e23051d6618e83095e6f44e12c84b"
     },
     {
-      "path": "PROVENANCE.md",
-      "bytes": 1993,
-      "sha256": "46a99324143e367913ae7f9822f7249790f7eb25640d931316a43d1dc89c6002",
-      "reviewed": true
+      "path": "ABOUT.md",
+      "bytes": 1237,
+      "sha256": "7dc4272d5a43b9d32f2cfd4333f2b5ff267e88014cbaf79dc0eede58baee9bc2"
     },
     {
-      "path": "PUBLICATION_REVIEW.md",
-      "bytes": 1278,
-      "sha256": "c3db8c52fb296f3fdd6720316da0a79ff23f87e220ca567e24728b71e421a341",
-      "reviewed": true
+      "path": "PROJECT_SHOWCASE.md",
+      "bytes": 5457,
+      "sha256": "bb1d77e56f787157ca2cc45b39a5101c41fc4d046ef9cb02aaa5d95685fd5ae8"
     },
     {
       "path": "README.md",
-      "bytes": 3665,
-      "sha256": "e1e31341074590b7241c73b7bc55e21722ae20ed2268dd543deae3bd2f91accc",
-      "reviewed": true
+      "bytes": 3878,
+      "sha256": "7d148b666793665f3181d13ac76c49d0f18b0429275fe1b65bd56964947493a7"
     },
     {
-      "path": "RIGHTS.md",
-      "bytes": 440,
-      "sha256": "5dbb597170fae0fd270cf3dc0d65b73e7ac670d5826c511aa8e38923394e50d8",
-      "reviewed": true
+      "path": "assets/overview.svg",
+      "bytes": 3034,
+      "sha256": "2014dfc248a1852e9a02dc9d22cacbff78c7fe768ad1b97cfda54f30930cbd17"
     },
     {
-      "path": "docs/01-context-and-ownership.md",
-      "bytes": 3063,
-      "sha256": "e5d06b07eed16d4d69257b2a5114b15f0b4175bf9ad41437c56286443aa7f681",
-      "reviewed": true
-    },
-    {
-      "path": "docs/02-architecture-and-state.md",
-      "bytes": 4800,
-      "sha256": "d7c7ddd7412b01d510875b964ccabff629403199b65097089d2d342a6af3935a",
-      "reviewed": true
-    },
-    {
-      "path": "docs/03-algorithms-and-contracts.md",
-      "bytes": 7614,
-      "sha256": "afb23a020b5e1188421c34c7cfd30430d1977e16d392249ad3e49aae06886e97",
-      "reviewed": true
-    },
-    {
-      "path": "docs/04-development-and-validation.md",
-      "bytes": 4298,
-      "sha256": "7c0fa13b285e8354e94382b62b69f9694d5dd07413fc867716118f8d37a53734",
-      "reviewed": true
-    },
-    {
-      "path": "docs/05-results-and-tradeoffs.md",
-      "bytes": 4199,
-      "sha256": "26a5ef2c8c6445571f6a7644e9464831905b4efc1c8cf630f1921bd892e3964f",
-      "reviewed": true
-    },
-    {
-      "path": "docs/06-limitations-and-next.md",
-      "bytes": 2889,
-      "sha256": "87b108225bc3d54577b7a5e2b4ca450fed9887a2fc401fa103e507587f910d8f",
-      "reviewed": true
+      "path": "docs/IMPLEMENTATION.md",
+      "bytes": 4640,
+      "sha256": "51f394f8372a80a92ded6aa87176c2ec5e8c4e25a4af8264326b4ad019d45cdb"
     }
   ]
 }
